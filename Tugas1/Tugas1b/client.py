@@ -6,7 +6,7 @@ server_address = ('127.0.0.1', 30001)
 sock.connect(server_address)
 
 try:
-    message = '/home/bella/Progjar/Tugas1/test.txt'
+    message = '/home/bella/PROGJAR_05111740000117/Tugas1/test.txt'
     print('sending filename : ' + message)
     sock.sendall(message.encode())
     
@@ -20,6 +20,7 @@ try:
             file.write(data)
         else:
             print('no more data from %s' % (server_address,))
+            file.close()
             break
 
 finally:

@@ -6,7 +6,7 @@ server_address = ('127.0.0.1', 30002)
 sock.connect(server_address)
 
 try:
-    msg = open('/home/bella/Progjar/Tugas1/test.txt','rb')
+    msg = open('/home/bella/PROGJAR_05111740000117/Tugas1/test.txt','rb')
 
     message = msg.read(1024)
     sock.sendall(message.encode())
