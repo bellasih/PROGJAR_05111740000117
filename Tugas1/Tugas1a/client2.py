@@ -2,7 +2,7 @@ import sys
 import socket
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-server_address = ('127.0.0.1', 31000)
+server_address = ('127.0.0.1', 31002)
 sock.connect(server_address)
 
 try:

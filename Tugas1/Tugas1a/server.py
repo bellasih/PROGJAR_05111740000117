@@ -31,7 +31,7 @@ def PortHandler(port):
 
 def Main():  
     threads = []
-    port = [30000, 30001, 30002]
+    port = [31000, 31001, 31002]
 
     for p in port:
         t = threading.Thread(target= PortHandler, args=[p])
