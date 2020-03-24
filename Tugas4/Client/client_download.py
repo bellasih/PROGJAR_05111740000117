@@ -5,7 +5,7 @@ import codecs
 import os
 import json
 
-path_client = '/home/bella/PROGJAR_05111740000117/Tugas4/Client/Data/'
+path_client = os.getcwd() + '/Data/'
 
 def kirim_data():
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -16,8 +16,7 @@ def kirim_data():
     sock.connect(server_address)
 
     try:
-        path = os.getcwd() + '/Data/'
-        print(path)
+        
 
         print('Input filename in directory Server/Data')
         filename =  input()
