@@ -2,8 +2,7 @@ import sys
 import socket
 import logging
 import codecs
-
-path = '/home/bella/PROGJAR_05111740000117/Tugas4/Data_Test/'
+import os
 
 def kirim_data():
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -14,6 +13,9 @@ def kirim_data():
     sock.connect(server_address)
 
     try:
+        os.chdir('../')
+        path = os.getcwd() + '/Data_Test/'
+
         print('Input filename in directory Data_Test')
         filename =  input()
 

@@ -16,6 +16,9 @@ def kirim_data():
     sock.connect(server_address)
 
     try:
+        path = os.getcwd() + '/Data/'
+        print(path)
+
         print('Input filename in directory Server/Data')
         filename =  input()
         data = 'download ' + filename

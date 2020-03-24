@@ -3,7 +3,9 @@ import uuid
 import codecs
 import os
 
-path_server = '/home/bella/PROGJAR_05111740000117/Tugas4/Server/Data/'
+# path_server = '/home/bella/PROGJAR_05111740000117/Tugas4/Server/Data/'
+
+path_server = os.getcwd() + '/Data/'
 
 class ProsesCommad:
     def __init__(self):
