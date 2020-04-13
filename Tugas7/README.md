@@ -2,8 +2,8 @@
 
 ## Berikut adalah hasil keluaran dari performance test untuk server pada tugas 6 
 
-| No. Test | Concurrency Level | Time Taken for Test | Complete request | Failed request | Total Transferred | Request per Second | Time per Request | | Time per Request (all concurrent) | Transfer Rate |
-| :------: | :---------------: | :-----------------: | :--------------: | :------------: | :---------------: | :----------------: | :--------------: | :-----------: |
+| No. Test | Concurrency Level | Time Taken for Test | Complete request | Failed request | Total Transferred | Request per Second | Time per Request | Time per Request (all concurrent) | Transfer Rate |
+| :------: | :---------------: | :-----------------: | :--------------: | :------------: | :---------------: | :----------------: | :--------------: | :-------------------------------: | :-----------: |
 | 1  | 1   | 0.030 seconds | 10  | 0 | 4470 bytes  | 337.34 [#/sec]  | 2.964 [ms]  | 2.964 [ms] | 147.26 [Kbytes/sec] |
 | 2  | 5   | 0.016 seconds | 10  | 0 | 4470 bytes  | 643.83 [#/sec]  | 7.766 [ms]  | 1.553 [ms] | 281.05 [Kbytes/sec] |
 | 3  | 10  | 0.013 seconds | 10  | 0 | 4470 bytes  | 775.31 [#/sec]  | 12.898 [ms] | 1.290 [ms] | 338.44 [Kbytes/sec] |
@@ -41,8 +41,8 @@
 8. ab -n 100 -c 1,30,50,100 http://127.0.0.1:10001
 ![alt text](https://github.com/bellasih/PROGJAR_05111740000117/blob/master/Tugas7/screenshot/req%20100.JPG)
 
-9. ab -n 100 -c 30 http://127.0.0.1:10001
-![alt text](https://github.com/bellasih/PROGJAR_05111740000117/blob/master/Tugas7/screenshot/req%20100_c%2030.JPG)
+9. ab -n 100 -c 10 http://127.0.0.1:10001
+![alt text](https://github.com/bellasih/PROGJAR_05111740000117/blob/master/Tugas7/screenshot/req%20100_c%2010.JPG)
 
 10. ab -n 100 -c 50 http://127.0.0.1:10001
 ![alt text](https://github.com/bellasih/PROGJAR_05111740000117/blob/master/Tugas7/screenshot/req%20100_c%2050.JPG)
