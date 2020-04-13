@@ -19,13 +19,13 @@ Buatlah <br>
    ```
    <br>Hasil yang didapat adalah sebagai berikut :<br>
    * Untuk telnet
-   ![alt text](https://github.com/bellasih/PROGJAR_05111740000117/blob/master/Tugas6/screenshot/telnet.png)
+   ![alt text](https://github.com/bellasih/PROGJAR_05111740000117/blob/master/Tugas6/screenshot/telnet.JPG)
    
    * Untuk server thread
-   ![alt text](https://github.com/bellasih/PROGJAR_05111740000117/blob/master/Tugas6/screenshot/server_thread.png)
+   ![alt text](https://github.com/bellasih/PROGJAR_05111740000117/blob/master/Tugas6/screenshot/server_thread.JPG)
 
 6. Bukalah chrome web browser, aktifkan developer mode, bagian network
 7. Bukalah alamat http://127.0.0.1:10001
 8. Berikut adalah hasil screenshotnya :
-   ![alt text](https://github.com/bellasih/PROGJAR_05111740000117/blob/master/Tugas6/screenshot/web-html.png)
+   ![alt text](https://github.com/bellasih/PROGJAR_05111740000117/blob/master/Tugas6/screenshot/web-html.JPG)
 
