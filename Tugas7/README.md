@@ -10,10 +10,11 @@
 
 ## Berikut adalah hasil keluaran terminal 
 1. ab -n 10 -c 1,5,10 http://127.0.0.1:10001
-![alt text](https://github.com/bellasih/PROGJAR_05111740000117/blob/master/Tugas7/screenshot/req 10.JPG)
+![alt text](https://github.com/bellasih/PROGJAR_05111740000117/blob/master/Tugas7/screenshot/req%2010.JPG)
 
 2. ab -n 50 -c 1,10,30,50 http://127.0.0.1:10001
-![alt text](https://github.com/bellasih/PROGJAR_05111740000117/blob/master/Tugas7/screenshot/req 50.JPG)
+![alt text](https://github.com/bellasih/PROGJAR_05111740000117/blob/master/Tugas7/screenshot/req%2050.JPG)
 
 3. ab -n 100 -c 1,30,50,100 http://127.0.0.1:10001
-![alt text](https://github.com/bellasih/PROGJAR_05111740000117/blob/master/Tugas7/screenshot/req 100.JPG)
+![alt text](https://github.com/bellasih/PROGJAR_05111740000117/blob/master/Tugas7/screenshot/req%20100.JPG)
+

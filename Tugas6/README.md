@@ -18,7 +18,7 @@ Buatlah <br>
    GET(spasi)/(spasi)HTTP/1.0(enter)(enter).
    ```
    <br>Hasil yang didapat adalah sebagai berikut :<br>
-   * Untuk telnet
+   * Untuk telnet<br>
    ![alt text](https://github.com/bellasih/PROGJAR_05111740000117/blob/master/Tugas6/screenshot/telnet.JPG)
    
    * Untuk server thread
