@@ -8,6 +8,7 @@
 
 ## Berikut adalah hasil keluaran dari performance test untuk server pada tugas 9 
 1. Performance Test Asynchronus Server
+
 | No. Test | Concurrency Level | Time Taken for Test | Complete request | Failed request | Total Transferred | Request per Second | Time per Request | Time per Request (all concurrent) | Transfer Rate |
 | :------: | :---------------: | :-----------------: | :--------------: | :------------: | :---------------: | :----------------: | :--------------: | :-------------------------------: | :-----------: |
 | 1  | 1   | 3.184 seconds | 1000  | 0 | 122000 bytes  | 314.07 [#/sec]  | 3.184 [ms]    | 3.184 [ms] | 37.42 [Kbytes/sec] |
@@ -18,6 +19,7 @@
 | 6  | 100 | 6.143 seconds | 1000  | 0 | 122000 bytes  | 162.78 [#/sec]  | 614.321 [ms]  | 6.143 [ms] | 19.39 [Kbytes/sec] |
 
 2. Performance Test Threaded Server
+
 | No. Test | Concurrency Level | Time Taken for Test | Complete request | Failed request | Total Transferred | Request per Second | Time per Request | Time per Request (all concurrent) | Transfer Rate |
 | :------: | :---------------: | :-----------------: | :--------------: | :------------: | :---------------: | :----------------: | :--------------: | :-------------------------------: | :-----------: |
 | 1  | 1   | 3.360 seconds | 1000  | 0 | 122000 bytes  | 297.60 [#/sec]  | 3.360 [ms]   | 3.360 [ms] | 35.46 [Kbytes/sec] |
