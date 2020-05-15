@@ -6,7 +6,7 @@
 ## Tampilan LOG loadbalancer
 ![alt text](https://github.com/bellasih/PROGJAR_05111740000117/blob/master/Tugas10/Screenshot/loadbalancer.PNG)
 
-## Berikut adalah hasil keluaran dari performance test untuk server pada tugas 9 
+## Berikut adalah hasil keluaran dari performance test untuk server pada tugas 10 
 1. Performance Test Asynchronus Server
 
 | No. Test | Concurrency Level | Time Taken for Test | Complete request | Failed request | Total Transferred | Request per Second | Time per Request | Time per Request (all concurrent) | Transfer Rate |
